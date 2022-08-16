@@ -4,14 +4,14 @@
   import website from '$lib/config/website'
   import {Icon} from '@steeze-ui/svelte-icon'
     // https://github.com/steeze-ui/icons
-  import {LightningBolt} from '@steeze-ui/heroicons'
+  // import {LightningBolt} from '@steeze-ui/heroicons'
     // https://heroicons.dev/
 
     //import {LightningBolt} from '@steeze-ui/iconic-free'
       // https://iconic.app/c/availability/free/
    // import {LightningBolt} from '@steeze-ui/feather-icons'
       // https://feathericons.com/
-  import {LogoFacebook,LogoGithub,LogoPinterest,LogoLinkedin,LogoTwitter,LogoYelp,LogoYoutube } from '@steeze-ui/carbon-icons'
+  import {LogoGithub,LogoLinkedin,LogoYelp,LogoYoutube } from '@steeze-ui/carbon-icons'
 
       // https://carbondesignsystem.com/guidelines/icons/library/
 </script>
