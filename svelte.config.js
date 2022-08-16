@@ -18,7 +18,7 @@ const config = {
     // },
     paths: {
       // change below to your repo name
-      base: prod ? "alaskafresh.co" : "",
+      base: "",
     },
 
     prerender: {
