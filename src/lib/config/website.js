@@ -9,6 +9,7 @@ const website = {
   companyMed:    'Alaska Fresh Vending',
   companyShort:  'Alaska Fresh',
   companyDesc: "Arizona’s high-quality Ice and Water Vending",
+  companyDescShrt: "Quality Ice and Water",
   ogLanguage: 'en_US',
   siteLanguage: 'en-US',
   siteTitle: 'Alaska Fresh Vending, LLC.',

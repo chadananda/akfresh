@@ -17,7 +17,7 @@
 </script>
 
 
-<footer class="footer p-10 bg-base-200 text-base-content">
+<footer class="footer p-5 sm:p-10 bg-base-200 text-base-content">
  <div>
    <span class="footer-title">Alaska Fresh Vending</span>
    <a class="link link-hover" href="#quality">Unique Quality Ice</a>
@@ -42,17 +42,23 @@
  </div>
 </footer>
 
-<footer class="footer px-10 py-4 border-t bg-base-200 text-base-content border-base-300">
- <div class="items-center grid-flow-col" itemscope itemtype="http://schema.org/Person">
 
-   <a href="/" sveltekit:prefetch><img src="akfresh.svg" class="w-24 h-20 -ml-4" alt="Alaska Fresh logo" /></a>
+<footer class="footer px-10 py-4 border-t bg-base-200 text-base-content border-base-300">
+ <div class="items-center grid-flow-col relative" itemscope itemtype="http://schema.org/Person">
+
+  <div class="w-24 h-24 min-h-24 min-w-24 -ml-8">
+    <a href="/" sveltekit:prefetch><img src="akfresh.png" class="h-full w-full object-scale-down" alt="Alaska Fresh logo" /></a>
+  </div>
 
    <!-- business card -->
    <div>
     <div>
-      <a href="/" sveltekit:prefetch class="text-lg">{website.companyFull}</a>
+      <a href="/" sveltekit:prefetch class="text-md sm:text-lg">{website.companyFull}</a>
       <br>
-      <a href="/" sveltekit:prefetch class="italic pl-2">{website.companyDesc}</a>
+
+      <a href="/" sveltekit:prefetch class="italic pl-2">
+        <span class="inline sm:hidden">{website.companyDescShrt}</span><span class="hidden sm:inline">{website.companyDesc}</span></a>
+
     </div>
      <div class="mt-2">
       <span itemprop="telephone">{website.contactPhone}</span>
@@ -68,7 +74,7 @@
    <div class="grid grid-flow-col gap-4 ">
 
      <div class="flex flex-wrap justify-center gap-2">
-      <a href="/#"><Icon src={LogoGithub} class='w-10 opacity-50 hover:opacity-100'/></a>
+      <a href="/#"><Icon src={LogoGithub} class='w-10 h-10 opacity-50 hover:opacity-100'/></a>
       <!-- <a href="/#"><Icon src={LogoFacebook} class='w-10 opacity-50 hover:opacity-100'/></a> -->
       <!-- <a href="/#"><Icon src={LogoPinterest} class='w-10 opacity-50 hover:opacity-100'/></a> -->
       <a href="/#"><Icon src={LogoLinkedin} class='w-10 opacity-50 hover:opacity-100'/></a>
