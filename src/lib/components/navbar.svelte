@@ -11,21 +11,21 @@
        name="hamburger" /></svg>
      </label>
      <ul tabindex="0" class="menu menu-compact dropdown-content mt-3 p-2 shadow bg-base-100 rounded-box w-52">
-       <li><a href="/#revenue"> Monthly Revenue Split</a></li>
+       <li><a href="/#revenue"> Revenue Share</a></li>
        <li><a href="/#bonus">Fat Signing Bonus</a></li>
        <li></li>
        <li><a href="/about">About Us</a></li>
      </ul>
    </div>
    <a href="/" class="btn btn-ghost normal-case text-xl">Alaska Fresh
-       <span class="invisible sm:visible md:invisible lg:visible">&nbsp;Vending</span>
-       <span class="invisible lg:visible">, LLC.</span>
+       <span class="hidden sm:inline md:hidden lg:inline">&nbsp;Vending</span>
+       <span class="hidden lg:inline">, LLC.</span>
     </a>
  </div>
  <div class="navbar-center hidden md:flex">
    <ul class="menu menu-horizontal p-0">
-     <li><a href="/#revenue">Monthly Revenue</a></li>
-     <li><a href="/#bonus">Fat Signing Bonus</a></li>
+     <li><a href="#revenue">Revenue Share</a></li>
+     <li><a href="#bonus">Fat Signing Bonus</a></li>
      <li class="mt-3 text-gray-400"> ~  </li>
      <li><a href="/about">About Us</a></li>
    </ul>

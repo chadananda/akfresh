@@ -8,7 +8,7 @@
 
 
 <script>
- let headers = ['Alaska', 'Glacial', "Colder", "Icier", "Purer", "Tastier", 'Alaska']
+ let headers = ['Glacial', "Colder", "Icier", "Purer", "Tastier", 'Alaska']
  let hn = -1
  let heading = ""
 

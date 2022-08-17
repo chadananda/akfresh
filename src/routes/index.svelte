@@ -22,19 +22,22 @@
 </svelte> -->
 
 <script>
-  import  Iceheader from '$lib/components/Iceheader.svelte'
+  import Iceheader from '$lib/components/Iceheader.svelte'
   import StartForm from '$lib/components/form_start.svelte'
+  import Heroic from '$lib/components/heroic.svelte'
 </script>
 
 
-<div class="hero my-5 mt-0 max-h-screen" id="quality" style="background-image: url(/mckinley_horz.png);">
- <div class="hero-overlay bg-opacity-60"></div>
+<div class="hero mb-5 mt-0 max-h-screen" id="quality" style="background-image: url(/mckinley_horz.png);">
+ <div class="hero-overlay bg-opacity-80"></div>
  <div class="hero-content text-center text-neutral-content">
-   <div class="max-w-md py-10">
+   <div class="max-w-md py-6">
 
      <Iceheader />
 
-     <p class="mb-5">Help us bring the cold fresh taste of Alaska’s glacier Ice to bulk-ice vending machines to Arizona. Have a high foot-traffic gas station or RV park in Arizona? Contact us to find out if an our high-quality Ice and Water vending machines might be a good fit for your location.</p>
+     <p class="mb-2 text-lg bold">Help us bring the fresh taste of Alaska’s cold, dense glacial Ice to bulk-ice vending machines across Arizona! Do you own a gas station, mini-mart or RV park?</p>
+
+    <p class="mb-5 text-lg bold"> Our Ice machines earn you revenue from day one &mdash; with a fat signing bonus, monthly location payments as well as generous revenue-sharing &mdash; we are determined to help you succeed.</p>
 
      <a class="btn btn-primary" href="#start">Get Started</a>
 
@@ -43,55 +46,36 @@
 </div>
 
 
-<div class="hero my-10 bg-base-200 shadow">
- <div class="hero-content flex-col sm:flex-row">
-   <img src="/Mount_McKinley_vert.jpg" class="max-w-[200px] rounded-lg shadow-2xl" alt="ice ice baby" />
-   <div>
-     <h1 class="text-4xl font-bold">Unparalled Quality</h1>
-     <p class="py-6">Our cutting-edge filtering technology produces ice which is purer, denser, longer lasting and simply tastes better. Once people taste our ice, they come back for more.  </p>
-   </div>
- </div>
-</div>
+<Heroic url="/Mount_McKinley_vert.jpg" dir="left" id="quality">
+  <span slot="title">Better Ice means Loyalty</span>
+  <span slot="desc"> Ever hold glacial ice? It’s incredibly pure and dense, so it take a long long time to melt. Our cutting-edge purification technology results in similarly dense, very nice-tasting ice which lasts much longer. Bulk-ice customers will notice that our ice lasts all day and come back, each day, for more. </span>
+</Heroic>
 
-<div class="hero my-10 bg-base-300 shadow" id="revenue">
- <div class="hero-content flex-col sm:flex-row-reverse">
-   <img src="/mckinly2_vert.png" class="max-w-[200px] rounded-lg shadow-2xl" alt="ice ice baby" />
-   <div>
-     <h1 class="text-4xl font-bold">More Revenue for You</h1>
-     <p class="py-6"> Centrally-manufactured ice simply cannot compete. While they might eventually upgrade equipment, yet they just cannot get around the high-cost of fuel and manpower involved in shipping, handling and storage of legacy ice. We like to push that savings back to you as the business owner. </p>
-   </div>
- </div>
-</div>
 
-<div class="hero my-10 bg-base-200 shadow" id="foot-traffic">
- <div class="hero-content flex-col sm:flex-row">
-   <img src="/mckinly3_vert.png" class="max-w-[200px] rounded-lg shadow-2xl" alt="ice ice baby" />
-   <div>
-     <h1 class="text-4xl font-bold">More Foot-traffic</h1>
-     <p class="py-6"> Our machines sit outside and are the size of a standard vending machine. Besides the bagged-ice option, our machines allow customers to fill coolers directly. This "bulk" option is commonly needed by a segment of the economy working outdoors in the heat. Every time you see a truck with a cooler, that cooler must be filled with ice daily. Our ice is more dense, so it lasts longer and tastes better. This creates loyalty among those who need ice every day. Which means such customers will be returning to your business more frequently. This</p>
-   </div>
- </div>
-</div>
 
-<div class="hero my-10 bg-base-300 shadow" id="bonus">
- <div class="hero-content flex-col sm:flex-row-reverse">
-   <img src="/mckinly4_vert.png" class="max-w-[200px] rounded-lg shadow-2xl" alt="ice ice baby" />
-   <div>
-     <h1 class="text-4xl font-bold">Generous Signing Bonus</h1>
-     <p class="py-6">Our machines are expensive &mdash; 20x the cost of a typical vending machine, which means quality placement is critical. Since good placement is so important to us, we go ahead and put a premium on solid location contracts in the form of a significant signing bonus for you, the business owner. That's right, in addition to healthy monthly rent, we give you a fat cash signing bonus &mdash; putting money in your pocket from day one. </p>
-   </div>
- </div>
-</div>
+<Heroic url="/mckinly3_vert.png" dir="right" id="foot-traffic">
+  <span slot="title">More Foot-traffic for You</span>
+  <span slot="desc">Our machines sit outside and are the size of a standard vending machine. Besides the bagged-ice option, our machines allow customers to fill coolers directly. This "bulk" option is commonly needed by a segment of the economy working outdoors in the heat. Every time you see a truck with a cooler, that cooler must be filled with ice daily. Our ice is more dense, so it lasts longer and tastes better. This creates loyalty among those who need ice every day. Which means such customers will be returning to your business more frequently.</span>
+</Heroic>
 
-<div class="hero my-10 bg-base-200 shadow">
- <div class="hero-content flex-col sm:flex-row">
-   <img src="/mckinley5_vert.png" class="max-w-[200px] rounded-lg shadow-2xl" alt="ice ice baby" />
-   <div>
-     <h1 class="text-4xl font-bold">Service Area</h1>
-     <p class="py-6"> Our machines are expensive, because they are highly engineered to require very little maintenance. This allows us to provide service across the entire state of Arizona. If you have a gas station, an RV park, a truck stop and would like an excellent additional income stream, contact us for a free site assessment.  </p>
-   </div>
- </div>
-</div>
+
+<Heroic url="/mckinly2_vert.png" dir="left" id="revenue">
+  <span slot="title">Revenue Share for You</span>
+  <span slot="desc">Trucked ice simply cannot compete. While they might eventually upgrade their filtering equipment to compete, yet they just cannot get around the high-cost of fuel and manpower involved in shipping, handling and storage of legacy bagged ice. We push that savings back to you as the business owner.</span>
+</Heroic>
+
+
+
+<Heroic url="/mckinly4_vert.png" dir="right" id="bonus">
+  <span slot="title">Fat Signing Bonus for You</span>
+  <span slot="desc">Our machines are expensive &mdash; 20x the cost of a typical vending machine, which means quality placement is critical. Since good placement is so important to us, we go ahead and put a premium on solid location contracts in the form of a significant signing bonus for you, the business owner. That's right, in addition to healthy monthly rent, we give you a fat cash signing bonus &mdash; putting money in your pocket from day one.</span>
+</Heroic>
+
+<Heroic url="/mckinley5_vert.png" dir="left">
+  <span slot="title">Our Service Area</span>
+  <span slot="desc"> Our machines are expensive, because they are highly engineered to require very little maintenance. This allows us to provide service across the entire state of Arizona. If you have a gas station, an RV park, a truck stop and would like an excellent additional income stream, contact us for a free site assessment.</span>
+</Heroic>
+
 
 
 <div class="hero py-14 bg-base-300 shadow" id="start">
