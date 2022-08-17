@@ -12,10 +12,21 @@
    // import {LightningBolt} from '@steeze-ui/feather-icons'
       // https://feathericons.com/
   import {LogoGithub,LogoLinkedin,LogoYelp,LogoYoutube } from '@steeze-ui/carbon-icons'
+     // https://carbondesignsystem.com/guidelines/icons/library/
 
-      // https://carbondesignsystem.com/guidelines/icons/library/
+  import { toast, SvelteToast } from '@zerodevx/svelte-toast'
+
+  const options =  {
+
+  }
+
+  function comingsoon() {
+     toast.push('Coming soon!')
+  }
+
 </script>
 
+<SvelteToast {options} />
 
 <footer class="footer p-5 sm:p-10 bg-base-200 text-base-content">
  <div>
@@ -74,13 +85,13 @@
    <div class="grid grid-flow-col gap-4 ">
 
      <div class="flex flex-wrap justify-center gap-2">
-      <a href="/#"><Icon src={LogoGithub} class='w-10 h-10 opacity-50 hover:opacity-100'/></a>
-      <!-- <a href="/#"><Icon src={LogoFacebook} class='w-10 opacity-50 hover:opacity-100'/></a> -->
-      <!-- <a href="/#"><Icon src={LogoPinterest} class='w-10 opacity-50 hover:opacity-100'/></a> -->
-      <a href="/#"><Icon src={LogoLinkedin} class='w-10 opacity-50 hover:opacity-100'/></a>
-      <!-- <a href="/#"><Icon src={LogoTwitter} class='w-10 opacity-50 hover:opacity-100'/></a> -->
-      <a href="/#"><Icon src={LogoYelp} class='w-10 opacity-50 hover:opacity-100'/></a>
-      <a href="/#"><Icon src={LogoYoutube} class='w-10 opacity-50 hover:opacity-100'/></a>
+      <a on:click|once={comingsoon}><Icon src={LogoGithub} class='w-10 h-10 opacity-50 hover:opacity-100'/></a>
+      <!-- <a on:click|once={comingsoon}><Icon src={LogoFacebook} class='w-10 opacity-50 hover:opacity-100'/></a> -->
+      <!-- <a on:click|once={comingsoon}><Icon src={LogoPinterest} class='w-10 opacity-50 hover:opacity-100'/></a> -->
+      <a on:click|once={comingsoon}><Icon src={LogoLinkedin} class='w-10 opacity-50 hover:opacity-100'/></a>
+      <!-- <a on:click|once={comingsoon}><Icon src={LogoTwitter} class='w-10 opacity-50 hover:opacity-100'/></a> -->
+      <a on:click|once={comingsoon}><Icon src={LogoYelp} class='w-10 opacity-50 hover:opacity-100'/></a>
+      <a on:click|once={comingsoon}><Icon src={LogoYoutube} class='w-10 opacity-50 hover:opacity-100'/></a>
     </div>
 
    </div>

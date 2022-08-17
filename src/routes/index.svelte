@@ -75,7 +75,7 @@
   <span slot="desc">Our machines are expensive &mdash; 20x the cost of a typical vending machine, which means quality placement is critical. Since good placement is so important to us, we go ahead and put a premium on solid location contracts in the form of a significant signing bonus for you, the business owner. That's right, in addition to healthy monthly rent, we give you a fat cash signing bonus &mdash; putting money in your pocket from day one.</span>
 </Heroic>
 
-<Heroic url="/mckinley5_vert.png" dir="left">
+<Heroic url="/mckinley5_vert.png" dir="left" id="service">
   <span slot="title">Broad Service Area across Arizona</span>
   <span slot="desc"> Our machines are expensive because they are highly engineered to require very little maintenance. Each machine has smart monitoring and even remote on-demand customer chat support. This allows us to provide service across the entire state of Arizona. If you own a gas station, an RV park, or a truck stop and would like to add an excellent additional income stream, contact us for a free site assessment.</span>
 </Heroic>
