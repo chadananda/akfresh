@@ -48,20 +48,24 @@
 
 <Heroic url="/Mount_McKinley_vert.jpg" dir="left" id="quality">
   <span slot="title">Better Ice means Loyalty</span>
-  <span slot="desc"> Ever hold glacial ice? It’s incredibly pure and dense, so it take a long long time to melt. Our cutting-edge purification technology results in similarly dense, very nice-tasting ice which lasts much longer. Bulk-ice customers will notice that our ice lasts all day and come back, each day, for more. </span>
+  <span slot="desc"> Ever hold glacial ice? It’s incredibly pure and dense, so it take a long long time to melt. Our cutting-edge purification technology results in similarly dense, fresh-tasting ice which melts slower than ordinary ice. Bulk-ice customers will notice that our ice lasts much longer and come back, each day, for more. </span>
 </Heroic>
 
+
+<!-- Bagged ice takes a lot of storage space. So it is often placed past the register, making it the single most "forgotten" purchse. How often have you walked out of a store, past the ice refrigerator and, only then, remembered that you forgot the ice? Our ice machines are compact, and sit outside facing the customer as they fill up with gas or load their groceries. There is no need to go back into the store and wait in line to grab ice.  -->
 
 
 <Heroic url="/mckinly3_vert.png" dir="right" id="foot-traffic">
   <span slot="title">More Foot-traffic for You</span>
-  <span slot="desc">Our machines sit outside and are the size of a standard vending machine. Besides the bagged-ice option, our machines allow customers to fill coolers directly. This "bulk" option is commonly needed by a segment of the economy working outdoors in the heat. Every time you see a truck with a cooler, that cooler must be filled with ice daily. Our ice is more dense, so it lasts longer and tastes better. This creates loyalty among those who need ice every day. Which means such customers will be returning to your business more frequently.</span>
+  <span slot="desc">
+    Arizona is hot. We have an entire sector of our economy who depend on ice to work outdoors effectively. You’ve seen their trucks, each having a cooler strapped to the back. These customers need to fill bulk ice every day. And once they try our ice, they will love how long it lasts in their cooler. Then they will return every day for more &mdash; driving traffic to your store.
+  </span>
 </Heroic>
 
 
 <Heroic url="/mckinly2_vert.png" dir="left" id="revenue">
-  <span slot="title">Revenue Share for You</span>
-  <span slot="desc">Trucked ice simply cannot compete. While they might eventually upgrade their filtering equipment to compete, yet they just cannot get around the high-cost of fuel and manpower involved in shipping, handling and storage of legacy bagged ice. We push that savings back to you as the business owner.</span>
+  <span slot="title">Revenue Shared for You</span>
+  <span slot="desc">Trucked ice simply cannot compete in quality or cost. While they might someday upgrade their filtering equipment, yet they just cannot get around the high-overhead of fuel and labor involved in handling, trucking and storage of legacy bagged ice. Our machines manufacture the ice onsite with no human contamination or cost. This allows us to sell better ice at a lower price with substantially better profit margin. And since good location is so important, we can push a revenue share back to you as the business owner.  </span>
 </Heroic>
 
 
