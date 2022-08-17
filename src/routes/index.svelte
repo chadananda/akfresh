@@ -48,7 +48,7 @@
 
 <Heroic url="/Mount_McKinley_vert.jpg" dir="left" id="quality">
   <span slot="title">Better Ice means Loyalty</span>
-  <span slot="desc"> Ever hold glacial ice? It’s incredibly pure and dense, so it take a long long time to melt. Our cutting-edge purification technology results in similarly dense, fresh-tasting ice which melts slower than ordinary ice. Bulk-ice customers will notice that our ice lasts much longer and come back, each day, for more. </span>
+  <span slot="desc"> Ever hold a piece of clear, heavy glacial ice? It’s incredibly pure and dense, so it takes an amazingly long time to melt. Our cutting-edge purification technology results in similarly dense, fresh-tasting ice which melts more slowly than ordinary ice. Bulk-ice customers will notice that our ice lasts longer, and come back, each day, for more. </span>
 </Heroic>
 
 
@@ -64,7 +64,7 @@
 
 
 <Heroic url="/mckinly2_vert.png" dir="left" id="revenue">
-  <span slot="title">Revenue Shared for You</span>
+  <span slot="title">Revenue Shared with You</span>
   <span slot="desc">Trucked ice simply cannot compete in quality or cost. While they might someday upgrade their filtering equipment, yet they just cannot get around the high-overhead of fuel and labor involved in handling, trucking and storage of legacy bagged ice. Our machines manufacture the ice onsite with no human contamination or cost. This allows us to sell better ice at a lower price with substantially better profit margin. And since good location is so important, we can push a revenue share back to you as the business owner.  </span>
 </Heroic>
 
@@ -76,8 +76,8 @@
 </Heroic>
 
 <Heroic url="/mckinley5_vert.png" dir="left">
-  <span slot="title">Our Service Area</span>
-  <span slot="desc"> Our machines are expensive, because they are highly engineered to require very little maintenance. This allows us to provide service across the entire state of Arizona. If you have a gas station, an RV park, a truck stop and would like an excellent additional income stream, contact us for a free site assessment.</span>
+  <span slot="title">Broad Service Area across Arizona</span>
+  <span slot="desc"> Our machines are expensive because they are highly engineered to require very little maintenance. Each machine has smart monitoring and even remote on-demand customer chat support. This allows us to provide service across the entire state of Arizona. If you own a gas station, an RV park, or a truck stop and would like to add an excellent additional income stream, contact us for a free site assessment.</span>
 </Heroic>
 
 
