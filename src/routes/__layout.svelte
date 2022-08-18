@@ -3,7 +3,10 @@
   import "../app.css";
   import Navbar from "$lib/components/navbar.svelte"
   import Footer from "$lib/components/footer.svelte"
+  import { SvelteToast } from '@zerodevx/svelte-toast'
 </script>
+
+<SvelteToast />
 
 
 <!-- Fixed header and footer  -->

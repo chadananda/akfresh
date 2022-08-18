@@ -17,15 +17,13 @@
 
 
 
-  import { toast, SvelteToast } from '@zerodevx/svelte-toast'
-  const options =  { }
+  import { toast } from '@zerodevx/svelte-toast'
   function comingsoon() {
+    console.log('at least we got here!!!')
      toast.push('Coming soon!')
   }
 
 </script>
-
-<SvelteToast {options} />
 
 <footer class="footer p-5 sm:p-10 bg-base-200 text-base-content">
  <div>

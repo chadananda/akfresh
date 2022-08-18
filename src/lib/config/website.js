@@ -3,10 +3,11 @@
 const facebookPageName = import.meta.env ? import.meta.env.VITE_FACEBOOK_PAGE : '';
 const facebookAuthorPageName = import.meta.env ? import.meta.env.VITE_FACEBOOK_AUTHOR_PAGE : '';
 
+
 const website = {
   author: 'Chad Jones',
-  isProduction: !!(process.env.APP_ENV==='production'),
-  isDev: (process.env.APP_ENV!='production'),
+  isProd: !!import.meta.env.PROD,
+  isDev: !!import.meta.env.DEV,
   companyFull:   'Alaska Fresh Vending, LLC.',
   companyMed:    'Alaska Fresh Vending',
   companyShort:  'Alaska Fresh',
