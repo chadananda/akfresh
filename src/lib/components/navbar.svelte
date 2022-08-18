@@ -1,13 +1,16 @@
 <script>
+  import website from '$lib/config/website';
   import ScreenWidth from "$lib/components/scrnwidth.svelte"
-
   import { toast, SvelteToast } from '@zerodevx/svelte-toast'
-  const options =  { }
+  // const options =  { }
   function comingsoon() {
      toast.push('Coming soon!')
   }
-
 </script>
+
+{#if website.idDev}
+  <ScreenWidth />
+{/if}
 
 <div class="navbar bg-base-200 border-b-2 border-gray-200">
  <div class="navbar-start">
@@ -42,4 +45,5 @@
  </div>
 </div>
 
-<ScreenWidth />
+
+
