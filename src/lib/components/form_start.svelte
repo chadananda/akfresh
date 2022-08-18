@@ -4,7 +4,7 @@
   let name='', email ='', phone='', address='', mailto='';
   $: {
     let datestr = (new Date()).toLocaleDateString('en-us', { weekday:"short", year:"numeric", month:"short", day:"numeric"})
-    let subject = `Ice Vending Location Assessment Request, ${datestr}`
+    let subject = `Ice Vending Location Assessment Request...`
     const lb = '%0D%0A'
     let body = `Dear sirs, ${lb+lb} Please analyze my address to determine suitability of placing an Alaska Fresh Ice Vending Machine.` + lb+lb +
     `Thank you,`+lb+lb+

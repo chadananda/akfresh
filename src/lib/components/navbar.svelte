@@ -1,5 +1,12 @@
 <script>
   import ScreenWidth from "$lib/components/scrnwidth.svelte"
+
+  import { toast, SvelteToast } from '@zerodevx/svelte-toast'
+  const options =  { }
+  function comingsoon() {
+     toast.push('Coming soon!')
+  }
+
 </script>
 
 <div class="navbar bg-base-200 border-b-2 border-gray-200">
@@ -14,7 +21,7 @@
        <li><a href="/#revenue"> Revenue Share</a></li>
        <li><a href="/#bonus">Fat Signing Bonus</a></li>
        <li></li>
-       <li><a href="/about">About Us</a></li>
+       <li><a href="/#start" on:click|once={comingsoon}>About Us</a></li>
      </ul>
    </div>
    <a href="/" class="btn btn-ghost normal-case text-xl">Alaska Fresh

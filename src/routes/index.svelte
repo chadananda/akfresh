@@ -77,7 +77,7 @@
 
 <Heroic url="/mckinley5_vert.png" dir="left" id="service">
   <span slot="title">Broad Service Area across Arizona</span>
-  <span slot="desc"> Our machines are expensive because they are highly engineered to require very little maintenance. Each machine has smart monitoring and even remote on-demand customer chat support. This allows us to provide service across the entire state of Arizona. If you own a gas station, an RV park, or a truck stop and would like to add an excellent additional income stream, contact us for a free site assessment.</span>
+  <span slot="desc"> Our machines are expensive because they’re engineered to require very little maintenance. Each machine has smart remote monitoring and even live customer chat support. This allows us to provide service across the entire state of Arizona. <br>If you own a gas station, an RV park, or a truck stop and would like to add an excellent additional income stream, contact us for a free site assessment.</span>
 </Heroic>
 
 
@@ -86,7 +86,7 @@
  <div class="hero-content flex-col md:flex-row-reverse">
    <div class="text-center md:text-left">
      <h1 class="text-5xl font-bold">Get Started Today!</h1>
-     <p class="py-6">It only takes a few days for a thorough site assessemnt to estimate viability of your business location. Contact us today to get started. If your site fits our criteria, we will arrange a meeting, agree to the terms of our placement contract, and issue your cash signing bonus. </p>
+     <p class="pt-6">We’ll conduct a thorough site assessemnt to estimate viability of your business location. Contact us today to get started. </p> <p class="pt-3 pb-6"> If your site fits our criteria, we’ll arrange a meeting, come to an agreement, and issue your cash signing bonus. </p>
    </div>
    <div class="card flex-shrink-0 w-full max-w-[300px] shadow-2xl bg-base-100">
 

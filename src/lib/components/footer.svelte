@@ -11,15 +11,13 @@
       // https://iconic.app/c/availability/free/
    // import {LightningBolt} from '@steeze-ui/feather-icons'
       // https://feathericons.com/
-  import {LogoGithub,LogoLinkedin,LogoYelp,LogoYoutube } from '@steeze-ui/carbon-icons'
+  import {GatewayMail, LogoGithub,LogoLinkedin,LogoYelp,LogoYoutube } from '@steeze-ui/carbon-icons'
      // https://carbondesignsystem.com/guidelines/icons/library/
 
+
+
   import { toast, SvelteToast } from '@zerodevx/svelte-toast'
-
-  const options =  {
-
-  }
-
+  const options =  { }
   function comingsoon() {
      toast.push('Coming soon!')
   }
@@ -39,17 +37,36 @@
  </div>
  <div>
    <span class="footer-title">Company</span>
-   <a class="link link-hover" href="/about" sveltekit:prefetch>About us</a>
-   <a class="link link-hover" href="/about#contact" sveltekit:prefetch>Contact</a>
-   <a class="link link-hover" href="/about#jobs" sveltekit:prefetch>Jobs</a>
-   <a class="link link-hover" href="/faq" sveltekit:prefetch>FAQs</a>
-   <a class="link link-hover" href="/locations" sveltekit:prefetch>Vending Locations</a>
+
+   <a class="link link-hover" href="/#start"
+   on:click|once={comingsoon}
+   sveltekit:prefetch>About us</a>
+
+   <!-- <a class="link link-hover" href="/about#contact" sveltekit:prefetch>Contact</a>
+   <a class="link link-hover" href="/about#jobs" sveltekit:prefetch>Jobs</a> -->
+
+   <a class="link link-hover" href="/#start"
+   on:click|once={comingsoon}
+   sveltekit:prefetch>FAQs</a>
+
+   <a class="link link-hover" href="/#start"
+   on:click|once={comingsoon}
+   sveltekit:prefetch>Vending Locations</a>
+
  </div>
  <div>
    <span class="footer-title">Legal</span>
-   <a class="link link-hover" href="/about#terms" sveltekit:prefetch>Terms of use</a>
-   <a class="link link-hover" href="/about#privacy" sveltekit:prefetch>Privacy policy</a>
-   <a class="link link-hover" href="/about#cookies" sveltekit:prefetch>Cookie policy</a>
+   <a class="link link-hover" href="/#start"
+   on:click|once={comingsoon}
+   sveltekit:prefetch>Terms of Use</a>
+
+   <a class="link link-hover" href="/#start"
+   on:click|once={comingsoon}
+   sveltekit:prefetch>Privacy Policy</a>
+
+   <a class="link link-hover" href="/#start"
+   on:click|once={comingsoon}
+   sveltekit:prefetch>Cookie Policy</a>
  </div>
 </footer>
 
@@ -74,7 +91,7 @@
      <div class="mt-2">
       <span itemprop="telephone">{website.contactPhone}</span>
         <span class="text-sm text-gray-400">~</span>
-      <a href={`mailto:${website.contactEmail}`} itemprop="email" class="text-navy underline">{website.contactEmail}</a>
+      <a href={`mailto:${website.contactEmail}?subject=Alaska Fresh Vending inquiry...`} itemprop="email" class="text-navy underline" target="_blank">{website.contactEmail}</a>
      </div>
   </div>
 
@@ -85,15 +102,19 @@
    <div class="grid grid-flow-col gap-4 ">
 
      <div class="flex flex-wrap justify-center gap-2">
-      <a on:click|once={comingsoon}><Icon src={LogoGithub} class='w-10 h-10 opacity-50 hover:opacity-100'/></a>
-      <!-- <a on:click|once={comingsoon}><Icon src={LogoFacebook} class='w-10 opacity-50 hover:opacity-100'/></a> -->
-      <!-- <a on:click|once={comingsoon}><Icon src={LogoPinterest} class='w-10 opacity-50 hover:opacity-100'/></a> -->
-      <a on:click|once={comingsoon}><Icon src={LogoLinkedin} class='w-10 opacity-50 hover:opacity-100'/></a>
-      <!-- <a on:click|once={comingsoon}><Icon src={LogoTwitter} class='w-10 opacity-50 hover:opacity-100'/></a> -->
-      <a on:click|once={comingsoon}><Icon src={LogoYelp} class='w-10 opacity-50 hover:opacity-100'/></a>
-      <a on:click|once={comingsoon}><Icon src={LogoYoutube} class='w-10 opacity-50 hover:opacity-100'/></a>
+      <a href="/#start" on:click|once={comingsoon}><Icon src={LogoGithub} class='w-10 h-10 opacity-50 hover:opacity-100'/></a>
+      <!-- <a href="/#start" on:click|once={comingsoon}><Icon src={LogoFacebook} class='w-10 opacity-50 hover:opacity-100'/></a> -->
+      <!-- <a href="/#start" on:click|once={comingsoon}><Icon src={LogoPinterest} class='w-10 opacity-50 hover:opacity-100'/></a> -->
+      <a href="/#start" on:click|once={comingsoon}><Icon src={LogoLinkedin} class='w-10 opacity-50 hover:opacity-100'/></a>
+      <!-- <a href="/#start" on:click|once={comingsoon}><Icon src={LogoTwitter} class='w-10 opacity-50 hover:opacity-100'/></a> -->
+      <a href="/#start" on:click|once={comingsoon}><Icon src={LogoYelp} class='w-10 opacity-50 hover:opacity-100'/></a>
+
+      <a href="/#start" on:click|once={comingsoon}><Icon src={LogoYoutube} class='w-10 opacity-50 hover:opacity-100'/></a>
     </div>
 
    </div>
  </div>
 </footer>
+
+
+
