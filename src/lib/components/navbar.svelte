@@ -1,13 +1,9 @@
 <script>
-  import ScreenWidth from "$lib/components/scrnwidth.svelte"
-
   import { toast } from '@zerodevx/svelte-toast'
   function comingsoon() {
      toast.push('Coming soon!')
   }
 </script>
-
-<ScreenWidth />
 
 <div class="navbar bg-base-200 border-b-2 border-gray-200">
  <div class="navbar-start">

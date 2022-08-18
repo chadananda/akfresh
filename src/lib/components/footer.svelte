@@ -15,14 +15,10 @@
   import {GatewayMail, LogoGithub,LogoLinkedin,LogoYelp,LogoYoutube } from '@steeze-ui/carbon-icons'
      // https://carbondesignsystem.com/guidelines/icons/library/
 
-
-
   import { toast } from '@zerodevx/svelte-toast'
   function comingsoon() {
-    console.log('at least we got here!!!')
-     toast.push('Coming soon!')
+    toast.push('Coming soon!')
   }
-
 </script>
 
 <footer class="footer p-5 sm:p-10 bg-base-200 text-base-content">

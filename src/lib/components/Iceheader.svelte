@@ -60,9 +60,11 @@
    color: transparent;
    font-family: 'Frozen';
    position: relative;
-   /* border: 2px  gray solid; */
-   /* text-shadow: 4px 4px rgb(50, 50, 161); */
-   text-shadow: 4px 4px 4px rgba(0, 9, 73, 0.26);
+   text-shadow: 4px 4px 4px rgba(3, 48, 121, 0.433);
+
+   -webkit-text-fill-color: transparent;
+   -webkit-text-stroke-color: rgba(255, 255, 255, 0.638);
+   -webkit-text-stroke-width: 1px;
    }
  .freeze:before {
    content: attr(data-heading);
@@ -81,11 +83,17 @@
    color: transparent;
    background-size: 200%;
    animation: shine 10s infinite;
+
+   /* -webkit-text-fill-color: transparent; */
+   -webkit-text-stroke-color: transparent;
+   -webkit-text-stroke-width: 1px;
  }
  @keyframes shine{
    0%{background-position: -100%;}
    100%{background-position: 100%;}
  }
+
+
 
 
 </style>

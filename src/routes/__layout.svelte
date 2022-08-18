@@ -4,8 +4,10 @@
   import Navbar from "$lib/components/navbar.svelte"
   import Footer from "$lib/components/footer.svelte"
   import { SvelteToast } from '@zerodevx/svelte-toast'
+  import ScreenWidth from "$lib/components/scrnwidth.svelte"
 </script>
 
+<ScreenWidth />
 <SvelteToast />
 
 
