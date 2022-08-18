@@ -102,7 +102,8 @@
    <div class="grid grid-flow-col gap-4 ">
 
      <div class="flex flex-wrap justify-center gap-2">
-      <a href="/#start" on:click|once={comingsoon}><Icon src={LogoGithub} class='w-10 h-10 opacity-50 hover:opacity-100'/></a>
+      <a href="https://github.com/chadananda/akfresh"
+      target="_blank"><Icon src={LogoGithub} class='w-10 h-10 opacity-50 hover:opacity-100'/></a>
       <!-- <a href="/#start" on:click|once={comingsoon}><Icon src={LogoFacebook} class='w-10 opacity-50 hover:opacity-100'/></a> -->
       <!-- <a href="/#start" on:click|once={comingsoon}><Icon src={LogoPinterest} class='w-10 opacity-50 hover:opacity-100'/></a> -->
       <a href="/#start" on:click|once={comingsoon}><Icon src={LogoLinkedin} class='w-10 opacity-50 hover:opacity-100'/></a>

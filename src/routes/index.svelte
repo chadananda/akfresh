@@ -58,7 +58,7 @@
 <Heroic url="/mckinly3_vert.png" dir="right" id="foot-traffic">
   <span slot="title">More Foot-traffic for You</span>
   <span slot="desc">
-    Arizona is hot. We have an entire sector of our economy who depend on ice to work outdoors effectively. You’ve seen their trucks, each having a cooler strapped to the back. These customers need to fill bulk ice every day. And once they try our ice, they will love how long it lasts in their cooler. Then they will return every day for more &mdash; driving traffic to your store.
+    Arizona is hot. We have an entire sector of our economy which depends on ice for outdoor work. You’ve seen their trucks, each having a cooler strapped to the back. These customers need to fill bulk ice every day. And once they try our ice, they will love how long it lasts in their cooler. Then they will return every day for more &mdash; driving traffic to your store.
   </span>
 </Heroic>
 
