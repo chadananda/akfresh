@@ -34,7 +34,7 @@
      <li><a href="#revenue">Revenue Share</a></li>
      <li><a href="#bonus">Fat Signing Bonus</a></li>
      <li class="mt-3 text-gray-400"> ~  </li>
-     <li><a href="/about">About Us</a></li>
+     <li><a href="/#start" on:click|once={comingsoon}>About Us</a></li>
    </ul>
  </div>
  <div class="navbar-end">
