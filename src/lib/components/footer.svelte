@@ -33,8 +33,7 @@
  <div>
    <span class="footer-title">Company</span>
 
-   <a class="link link-hover" href="/#start"
-   on:click|once={comingsoon}
+   <a class="link link-hover" href="/about/#about"
    sveltekit:prefetch>About us</a>
 
    <!-- <a class="link link-hover" href="/about#contact" sveltekit:prefetch>Contact</a>
@@ -51,16 +50,13 @@
  </div>
  <div>
    <span class="footer-title">Legal</span>
-   <a class="link link-hover" href="/#start"
-   on:click|once={comingsoon}
+   <a class="link link-hover" href="/about#privacy"
    sveltekit:prefetch>Terms of Use</a>
 
-   <a class="link link-hover" href="/#start"
-   on:click|once={comingsoon}
+   <a class="link link-hover" href="/about#privacy"
    sveltekit:prefetch>Privacy Policy</a>
 
-   <a class="link link-hover" href="/#start"
-   on:click|once={comingsoon}
+   <a class="link link-hover" href="/about#cookie"
    sveltekit:prefetch>Cookie Policy</a>
  </div>
 </footer>

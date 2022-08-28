@@ -1,9 +1,16 @@
 /* Write your global styles here, in PostCSS syntax */
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@1,700&display=swap');
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+
 
 html {
  scroll-behavior: smooth
 }
 
+h1.card {
+ font-family: 'Merriweather', serif;
+}

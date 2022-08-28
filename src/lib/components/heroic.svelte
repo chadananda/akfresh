@@ -15,12 +15,14 @@
 <div id={id} class="py-5 max-w-5xl m-auto">
   <div class="hero my-5 {shade} shadow  lg:rounded-xl">
   <div class="hero-content flex-col {direction}
-    mx-0 pt-0 gap-5 p-0 sm:p-5">
-    <div class="w-full h-[300px]
-       sm:w-1/3 sm:h-[400px] sm:rounded-lg sm:mt-5"
-      style={imgStyle}></div>
+    mx-0 pt-0 gap-5 p-0 sm:p-5 w-full">
+    {#if url}
+      <div class="w-full h-[300px]
+        sm:w-1/3 sm:h-[400px] sm:rounded-lg sm:mt-5"
+        style={imgStyle}></div>
+    {/if}
     <div class="text-center sm:text-left sm:w-2/3">
-      <h1 class="text-4xl font-bold"><slot name="title"/></h1>
+      <h1 class="card text-4xl font-bold"><slot name="title"/></h1>
       <p class="py-6"><slot name="desc"/></p>
     </div>
   </div>
