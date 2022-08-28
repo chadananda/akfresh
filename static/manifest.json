@@ -1,0 +1,27 @@
+{
+ "short_name": "AlaskaFresh",
+ "name": "Alaska-Fresh-Vending-LLC",
+ "id": "alaskafresh",
+ "start_url": "/",
+ "icons": [
+   {
+     "src": "android-chrome-512x512.png",
+     "type": "image/png",
+     "sizes": "512x512"
+   }
+ ],
+ "background_color": "#3367D6",
+ "display": "standalone",
+ "scope": "/",
+ "theme_color": "#3367D6",
+ "shortcuts": [
+   {
+     "name": "Alaska Fresh Vending, Inc.",
+     "short_name": "AKFresh",
+     "description": "Boost your store’s income with AKFresh Ice vending machine",
+     "url": "/",
+     "icons": [{ "src": "android-chrome-192x192.png", "sizes": "192x192" }]
+   }
+ ],
+ "description": "Get your store a free Alaska Fresh Ice vending machine for monthly revenue -- and a fat signing bonus."
+}
