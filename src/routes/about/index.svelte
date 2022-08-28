@@ -18,7 +18,10 @@ If you own a gas station, truck stop or mini-mart &mdash; any high foot-traffic 
 </Heroic>
 
 
-<div class="prose mx-4 text-sm" id="privacy">
+<div class="w-full">
+<div class="max-w-4xl p-10 m-auto" id="privacy">
+
+<div class="prose text-sm">
 
 <h1 class=""> Website Privacy and Terms of Use</h1>
 
@@ -57,7 +60,7 @@ If you own a gas station, truck stop or mini-mart &mdash; any high foot-traffic 
 <h2 class="">8. Governing Law</h2>
 <p class="">Any claim related to Alaska Fresh Vending’s Website shall be governed by the laws of Country without regards to its conflict of law provisions.</p>
 
-</div>
+</div></div></div>
 
 
 

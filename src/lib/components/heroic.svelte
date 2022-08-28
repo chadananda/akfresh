@@ -11,8 +11,7 @@
    }
  </script>
 
-<div id={id} class="p-7">&nbsp;</div>
-
+<div id={id} class="pt-3">&nbsp;</div>
 <div class="pb-5 max-w-5xl m-auto">
   <div class="hero my-5 {shade} shadow  lg:rounded-xl">
   <div class="hero-content flex-col {direction}
