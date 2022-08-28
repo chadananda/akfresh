@@ -11,8 +11,9 @@
    }
  </script>
 
+<div id={id} class="p-7">&nbsp;</div>
 
-<div id={id} class="py-5 max-w-5xl m-auto">
+<div class="pb-5 max-w-5xl m-auto">
   <div class="hero my-5 {shade} shadow  lg:rounded-xl">
   <div class="hero-content flex-col {direction}
     mx-0 pt-0 gap-5 p-0 sm:p-5 w-full">

@@ -24,11 +24,11 @@
 <footer class="footer p-5 sm:p-10 bg-base-200 text-base-content">
  <div>
    <span class="footer-title">Alaska Fresh Vending</span>
-   <a class="link link-hover" href="#quality">Unique Quality Ice</a>
-   <a class="link link-hover" href="#revenue">Improved Site Revenue</a>
-   <a class="link link-hover" href="#foot-traffic">Drive Foot Traffic</a>
-   <a class="link link-hover" href="#bonus">Signing Bonus</a>
-   <a class="link link-hover" href="#start">Get Started Now!</a>
+   <a class="link link-hover" href="/#quality">Unique Quality Ice</a>
+   <a class="link link-hover" href="/#revenue">Improved Site Revenue</a>
+   <a class="link link-hover" href="/#foot-traffic">Drive Foot Traffic</a>
+   <a class="link link-hover" href="/#bonus">Signing Bonus</a>
+   <a class="link link-hover" href="/#start">Get Started Now!</a>
  </div>
  <div>
    <span class="footer-title">Company</span>
