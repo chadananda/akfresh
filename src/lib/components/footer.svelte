@@ -19,6 +19,7 @@
   function comingsoon() {
     toast.push('Coming soon!')
   }
+
 </script>
 
 <footer class="footer p-5 sm:p-10 bg-base-200 text-base-content">

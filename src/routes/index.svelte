@@ -32,7 +32,7 @@
 <svelte:window bind:scrollY={scroll} />
 
 <div class="hero mb-5 mt-0 max-h-screen bgscroll" id="quality" style="background-image: url(/mckinley_horz.png);"
-  style:background-position-y={`${-150-scroll}px`}
+  style:background-position-y={`${-150-(scroll*.8)}px`}
 >
  <div class="hero-overlay bg-opacity-80" style:opacity={1-(scroll/200)}></div>
  <div class="hero-content text-center text-neutral-content">
@@ -40,9 +40,9 @@
 
      <Iceheader />
 
-     <p class="mb-2 text-lg bold shadow-text-white">Help us bring the fresh taste of Alaska’s cold, dense glacial Ice to bulk-ice vending machines across Arizona! Do you own a gas station, mini-mart or RV park?</p>
+     <p class="mb-2 text-lg bold shadow-text-white">Do you own a gas station, mini-mart or RV park? Acquire a new income stream while helping us bring the fresh taste of Alaska’s cold, dense glacial Ice to your customers! </p>
 
-    <p class="mb-5 text-lg bold shadow-text-white"> Our Ice machines earn you revenue from day one &mdash; with a fat signing bonus, monthly location payments as well as generous revenue-sharing &mdash; we are determined to help you succeed.</p>
+    <p class="mb-5 text-lg bold shadow-text-white"> With a fat signing bonus, our machines start paying you from day one!</p>
 
      <a class="btn btn-primary" href="#start">Get Started</a>
 
@@ -53,7 +53,7 @@
 
 <Heroic url="/mckinly3_vert.png" dir="left" id="quality">
   <span slot="title">Better Ice means Loyalty</span>
-  <span slot="desc"> Ever hold a piece of clear, heavy glacial ice? It’s incredibly pure and dense, so it takes an amazingly long time to melt. Our cutting-edge purification technology results in similarly dense, fresh-tasting ice which melts more slowly than ordinary ice. Bulk-ice customers will notice that our ice lasts longer, and come back, each day, for more. </span>
+  <span slot="desc"> Ever hold a piece of clear, heavy glacial ice? It’s incredibly pure and dense, so it lasts an amazingly long time. Our cutting-edge purification technology results in similarly dense, fresh-tasting ice which melts more slowly than ordinary ice. Bulk-ice customers notice that our ice lasts longer, and come back for more. </span>
 </Heroic>
 
 
@@ -61,27 +61,27 @@
 
 
 <Heroic url="/Mount_McKinley_vert.jpg" dir="right" id="foot-traffic">
-  <span slot="title">More Foot-traffic for You</span>
+  <span slot="title">Returning traffic for You</span>
   <span slot="desc">
-    Arizona is hot. We have an entire sector of our economy which depends on ice for outdoor work. You’ve seen their trucks, each having a cooler strapped to the back. These customers need to fill bulk ice every day. And once they try our ice, they will love how long it lasts in their cooler. Then they will return every day for more &mdash; driving traffic to your store.
+    Arizona is hot. We have an entire sector of our economy which depends on ice for outdoor work. You’ve seen their trucks with a cooler strapped to the back. These customers need bulk ice every day. And once they try our ice, they will love how long it lasts in their cooler. Then they will return every day for more &mdash; driving traffic to your store.
   </span>
 </Heroic>
 
 
 <Heroic url="/mckinly2_vert.png" dir="left" id="revenue">
-  <span slot="title">Revenue Shared with You</span>
-  <span slot="desc">Trucked ice simply cannot compete in quality or cost. While they might someday upgrade their filtering equipment, yet they just cannot get around the high-overhead of fuel and labor involved in handling, trucking and storage of legacy bagged ice. Our machines manufacture the ice onsite with no human contamination or cost. This allows us to sell better ice at a lower price with substantially better profit margin. And since good location is so important, we can push a revenue share back to you as the business owner.  </span>
+  <span slot="title">Increased Revenue for You</span>
+  <span slot="desc">Trucked ice simply cannot compete in quality or cost. While they might someday upgrade their filtering equipment, yet they just cannot get around the high-overhead of fuel and labor involved in handling, trucking and storage of legacy bagged ice. Our machines manufacture the ice onsite with no human contamination or cost. This allows us to sell better ice at a lower price with a higher profit margin -- allowing us to pay you more for a quality vending location.  </span>
 </Heroic>
 
 
 
 <Heroic url="/mckinly4_vert.png" dir="right" id="bonus">
   <span slot="title">Fat Signing Bonus for You</span>
-  <span slot="desc">Our machines are expensive &mdash; 20x the cost of a typical vending machine, which means quality placement is critical. Since good placement is so important to us, we go ahead and put a premium on solid location contracts in the form of a significant signing bonus for you, the business owner. That's right, in addition to healthy monthly rent, we give you a fat cash signing bonus &mdash; putting money in your pocket from day one.</span>
+  <span slot="desc">Our machines are expensive &mdash; 20x the cost of a typical vending machine, which means quality placement is critical. So we put a premium on solid location contracts in the form of a significant signing bonus for you. That's right, in addition to healthy monthly rent, we pay you a fat cash signing bonus &mdash; putting money in your pocket from day one.</span>
 </Heroic>
 
 <Heroic url="/mckinley5_vert.png" dir="left" id="service">
-  <span slot="title">Broad Service Area across Arizona</span>
+  <span slot="title">Broad Service across Arizona</span>
   <span slot="desc"> Our machines are expensive because they’re engineered to require very little maintenance. Each machine has smart remote monitoring and even live customer chat support. This allows us to provide service across the entire state of Arizona. <br>If you own a gas station, an RV park, or a truck stop and would like to add an excellent additional income stream, contact us for a free site assessment.</span>
 </Heroic>
 
@@ -105,6 +105,5 @@
   .shadow-text-white {
     text-shadow: 1px 1px 3px #FcFcFc;
   }
-
 </style>
 

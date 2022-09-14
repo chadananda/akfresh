@@ -14,7 +14,7 @@
        name="hamburger" /></svg>
      </label>
      <ul tabindex="0" class="menu menu-compact dropdown-content mt-3 p-2 shadow bg-base-100 rounded-box w-52">
-       <li><a href="/#revenue"> Revenue Share</a></li>
+       <li><a href="/#revenue"> Great Income Stream</a></li>
        <li><a href="/#bonus">Fat Signing Bonus</a></li>
        <li></li>
        <li><a href="/about#about">About Us</a></li>
@@ -27,7 +27,7 @@
  </div>
  <div class="navbar-center hidden md:flex">
    <ul class="menu menu-horizontal p-0">
-     <li><a href="#revenue">Revenue Share</a></li>
+     <li><a href="#revenue">Revenue Stream</a></li>
      <li><a href="#bonus">Fat Signing Bonus</a></li>
      <li class="mt-3 text-gray-400"> ~  </li>
      <li><a href="/about#about">About Us</a></li>
