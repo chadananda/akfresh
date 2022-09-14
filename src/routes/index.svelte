@@ -25,19 +25,24 @@
   import Iceheader from '$lib/components/Iceheader.svelte'
   import StartForm from '$lib/components/form_start.svelte'
   import Heroic from '$lib/components/heroic.svelte'
+
+  let scroll;
 </script>
 
+<svelte:window bind:scrollY={scroll} />
 
-<div class="hero mb-5 mt-0 max-h-screen" id="quality" style="background-image: url(/mckinley_horz.png);">
- <div class="hero-overlay bg-opacity-80"></div>
+<div class="hero mb-5 mt-0 max-h-screen bgscroll" id="quality" style="background-image: url(/mckinley_horz.png);"
+  style:background-position-y={`${-150-scroll}px`}
+>
+ <div class="hero-overlay bg-opacity-80" style:opacity={1-(scroll/200)}></div>
  <div class="hero-content text-center text-neutral-content">
    <div class="max-w-md py-6">
 
      <Iceheader />
 
-     <p class="mb-2 text-lg bold">Help us bring the fresh taste of Alaska’s cold, dense glacial Ice to bulk-ice vending machines across Arizona! Do you own a gas station, mini-mart or RV park?</p>
+     <p class="mb-2 text-lg bold shadow-text-white">Help us bring the fresh taste of Alaska’s cold, dense glacial Ice to bulk-ice vending machines across Arizona! Do you own a gas station, mini-mart or RV park?</p>
 
-    <p class="mb-5 text-lg bold"> Our Ice machines earn you revenue from day one &mdash; with a fat signing bonus, monthly location payments as well as generous revenue-sharing &mdash; we are determined to help you succeed.</p>
+    <p class="mb-5 text-lg bold shadow-text-white"> Our Ice machines earn you revenue from day one &mdash; with a fat signing bonus, monthly location payments as well as generous revenue-sharing &mdash; we are determined to help you succeed.</p>
 
      <a class="btn btn-primary" href="#start">Get Started</a>
 
@@ -46,7 +51,7 @@
 </div>
 
 
-<Heroic url="/Mount_McKinley_vert.jpg" dir="left" id="quality">
+<Heroic url="/mckinly3_vert.png" dir="left" id="quality">
   <span slot="title">Better Ice means Loyalty</span>
   <span slot="desc"> Ever hold a piece of clear, heavy glacial ice? It’s incredibly pure and dense, so it takes an amazingly long time to melt. Our cutting-edge purification technology results in similarly dense, fresh-tasting ice which melts more slowly than ordinary ice. Bulk-ice customers will notice that our ice lasts longer, and come back, each day, for more. </span>
 </Heroic>
@@ -55,7 +60,7 @@
 <!-- Bagged ice takes a lot of storage space. So it is often placed past the register, making it the single most "forgotten" purchse. How often have you walked out of a store, past the ice refrigerator and, only then, remembered that you forgot the ice? Our ice machines are compact, and sit outside facing the customer as they fill up with gas or load their groceries. There is no need to go back into the store and wait in line to grab ice.  -->
 
 
-<Heroic url="/mckinly3_vert.png" dir="right" id="foot-traffic">
+<Heroic url="/Mount_McKinley_vert.jpg" dir="right" id="foot-traffic">
   <span slot="title">More Foot-traffic for You</span>
   <span slot="desc">
     Arizona is hot. We have an entire sector of our economy which depends on ice for outdoor work. You’ve seen their trucks, each having a cooler strapped to the back. These customers need to fill bulk ice every day. And once they try our ice, they will love how long it lasts in their cooler. Then they will return every day for more &mdash; driving traffic to your store.
@@ -95,4 +100,11 @@
    </div>
  </div>
 </div>
+
+<style>
+  .shadow-text-white {
+    text-shadow: 1px 1px 3px #FcFcFc;
+  }
+
+</style>
 
