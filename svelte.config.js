@@ -9,6 +9,7 @@ console.log(process.env.NODE_ENV)
 /** @type {import('@sveltejs/kit').Config} */
 const config = {
   kit: {
+    // ssr: false,
     adapter: adapter({
       pages: "build",
       assets: "build"

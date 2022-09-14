@@ -6,9 +6,9 @@
 <Heroic url="/mckinly6.png" dir="left" id="about">
  <span slot="title">About Alaska Fresh Vending</span>
  <span slot="desc">
-We’re a small company with a big idea &mdash; to upgrade the old legacy ice distribution system so critical to the Arizona workforce. Unlike many northern states, ice in Arizona is a necessity, not a luxery. <br><br>
+We’re a small company with a big idea &mdash; to upgrade the old legacy ice distribution system so critical to the Arizona workforce. Ice in Arizona is a necessity, not a luxery. <br><br>
 
-The old legacy ice distribution system with trucking, fuel and handling, is expensive, wasteful and somewhat unsanitary. The way to fix this is with compact, high-quality local production. By increasing quality first, we get people to try the new technology. By decreasing cost (cutting out fuel and handling from remote production) we win out permanently.<br><br>
+Legacy ice distribution system with trucking, fuel and handling, is expensive, wasteful and somewhat unsanitary. The way to fix this is with compact, high-quality local production. By increasing quality first, we get people to try the new technology.<br><br>
 
 If you own a gas station, truck stop or mini-mart &mdash; any high foot-traffic area, then contact us for a free sight assessment. You could be earning significant additional revenue from the placement of a compact vending maching outside your facility.<br><br>
 

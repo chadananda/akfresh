@@ -24,7 +24,7 @@
 <script>
   import Iceheader from '$lib/components/Iceheader.svelte'
   import StartForm from '$lib/components/form_start.svelte'
-  import Heroic from '$lib/components/heroic.svelte'
+  import Heroic    from '$lib/components/heroic.svelte'
 
   let scroll;
 </script>

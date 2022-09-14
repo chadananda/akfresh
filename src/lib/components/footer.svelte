@@ -4,6 +4,8 @@
   import website from '$lib/config/website'
   const {githubPage} = website;
   import {Icon} from '@steeze-ui/svelte-icon'
+  import Aklogo from '$lib/components/aklogo.svelte'
+
     // https://github.com/steeze-ui/icons
   // import {LightningBolt} from '@steeze-ui/heroicons'
     // https://heroicons.dev/
@@ -67,7 +69,7 @@
  <div class="items-center grid-flow-col relative" itemscope itemtype="http://schema.org/Person">
 
   <div class="w-24 h-24 min-h-24 min-w-24 -ml-8">
-    <a href="/" sveltekit:prefetch><img src="akfresh.png" class="h-full w-full object-scale-down" alt="Alaska Fresh logo" /></a>
+    <Aklogo />
   </div>
 
    <!-- business card -->
