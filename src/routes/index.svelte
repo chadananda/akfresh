@@ -30,9 +30,9 @@
 </script>
 
 <svelte:window bind:scrollY={scroll} />
-
+<!-- style:background-position-y={`${-150-(scroll*.8)}px`} -->
 <div class="hero mb-5 mt-0 max-h-screen bgscroll" id="quality" style="background-image: url(/mckinley_horz.png);"
-  style:background-position-y={`${-150-(scroll*.8)}px`}
+
 >
  <div class="hero-overlay bg-opacity-80" style:opacity={1-(scroll/200)}></div>
  <div class="hero-content text-center text-neutral-content">
@@ -87,7 +87,7 @@
 
 
 
-<div class="hero py-14 bg-base-300 shadow" id="start">
+<div class="hero py-14 bg-base-300 shadow  mt-20" id="start">
  <div class="hero-content flex-col md:flex-row-reverse">
    <div class="text-center md:text-left">
      <h1 class="text-5xl font-bold">Get Started Today!</h1>
