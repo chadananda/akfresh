@@ -42,7 +42,7 @@
 
      <p class="mb-2 text-lg bold shadow-text-white">Do you own a gas station, mini-mart or RV park? Acquire a new income stream while helping us bring the fresh taste of Alaska’s cold, dense glacial Ice to your customers! </p>
 
-    <p class="mb-5 text-lg bold shadow-text-white"> With a fat signing bonus, our machines start paying you from day one!</p>
+    <p class="mb-5 text-lg bold shadow-text-white"> Our machines are beautiful, popular, useful and provide you with an extra stream of income!</p>
 
      <a class="btn btn-primary" href="#start">Get Started</a>
 
